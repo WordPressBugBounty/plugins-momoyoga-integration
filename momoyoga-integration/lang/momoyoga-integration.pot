@@ -1,0 +1,37 @@
+msgid "Update settings"
+msgstr ""
+
+msgid "Schedule settings"
+msgstr ""
+
+msgid "Momoyoga schedule"
+msgstr ""
+
+msgid "Schedule URL"
+msgstr ""
+
+msgid "No schedule URL defined."
+msgstr ""
+
+msgid "Schedule URL invalid."
+msgstr ""
+
+msgid "https://www.momoyoga.com/example-yoga-studio"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "https://www.momoyoga.com/en/"
+msgstr ""
+
+msgid "Show your Momoyoga class schedule on your WordPress website."
+msgstr ""
+
+msgid ""
+"https://help.momoyoga.com/hc/en-us/articles/115003513171-How-to-integrate-"
+"the-schedule-with-my-website-using-Wordpress-"
+msgstr ""
+
+msgid "Yoga Schedule Momoyoga"
+msgstr ""
