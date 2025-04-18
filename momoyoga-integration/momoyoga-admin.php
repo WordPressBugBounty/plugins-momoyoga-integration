@@ -9,11 +9,11 @@ class MomoyogaEditorButton
      * @param WP_Screen $screen Data about current screen.
      */
     public function add_hooks() {
-        wp_enqueue_style( 'momoyoga-admin', plugins_url( 'css/admin.css', __FILE__ ) );
-        
+        wp_enqueue_style( 'momoyoga-admin', plugins_url( 'css/admin.css', __FILE__ ), [], MOMO_PLUGIN_VERSION );
+
         add_filter( 'mce_external_plugins', array( $this, 'mce_external_plugins' ) );
 		add_filter( 'mce_buttons', array( $this, 'mce_buttons' ) );
-        
+
         add_action( 'admin_notices', array( $this, 'handle_editor_view_js' ) );
         add_action( 'media_buttons', array( $this, 'momoyoga_schedule_button' ), 9999 );
     }
@@ -33,8 +33,8 @@ class MomoyogaEditorButton
     function momoyoga_schedule_button() {
         $title = __( 'Add Momoyoga schedule', 'momoyoga-integration' );
         ?>
-        <button id="insert-momoyoga-schedule" class="button" title="<?php echo( $title ); ?>" href="javascript:;">
-            <span class="momoyoga-schedule-icon"></span> <?php echo( $title ); ?>
+        <button id="insert-momoyoga-schedule" class="button" title="<?php echo esc_html( $title ); ?>" href="javascript:;">
+            <span class="momoyoga-schedule-icon"></span> <?php echo esc_html( $title ); ?>
         </button>
 
         <?php
@@ -46,7 +46,7 @@ class MomoyogaEditorButton
 		if ( ! isset( $current_screen->id ) || $current_screen->base !== 'post' ) {
 			return;
         }
-        
+
 		add_action( 'admin_print_footer_scripts', array( $this, 'editor_view_js_templates' ), 1 );
 		wp_enqueue_script( 'momoyoga-editor-view', plugins_url( 'js/editor-view.js', __FILE__ ), array( 'wp-util', 'jquery', 'quicktags' ), MOMO_PLUGIN_VERSION, true );
 		wp_localize_script( 'momoyoga-editor-view', 'momoyogaScheduleEditorView', array(
@@ -68,10 +68,10 @@ class MomoyogaEditorButton
 </script>
 
 <script type="text/html" id="tmpl-momoyoga-schedule-editor-inline">
-    <h1 id="form-settings-header" class="grunion-section-header"><?php _e( 'Schedule settings', 'momoyoga-integration' ); ?></h1>
+    <h1 id="form-settings-header" class="grunion-section-header"><?php esc_html_e( 'Schedule settings', 'momoyoga-integration' ); ?></h1>
     <section class="card grunion-form-settings" aria-labelledby="form-settings-header">
-        <label><?php _e( 'What is the URL of your Momoyoga schedule?', 'momoyoga-integration' ); ?>
-            <input type="text" placeholder="<?php _e('https://www.momoyoga.com/example-yoga-studio', 'momoyoga-integration') ?>" name="schedule_url" value="{{ data.schedule_url }}" />
+        <label><?php esc_html_e( 'What is the URL of your Momoyoga schedule?', 'momoyoga-integration' ); ?>
+            <input type="text" placeholder="<?php esc_html_e('https://www.momoyoga.com/example-yoga-studio', 'momoyoga-integration') ?>" name="schedule_url" value="{{ data.schedule_url }}" />
         </label>
     </section>
     <section class="buttons">

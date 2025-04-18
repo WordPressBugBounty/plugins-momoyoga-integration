@@ -1,9 +1,9 @@
 === Yoga Schedule Momoyoga ===
-Contributors: momostefan, ingomomoyoga, nilsmomo, momojoris, momoplamen
-Tags: momoyoga, yoga, schedule, booking, booking calendar, booking system, availability calendar, events calendar, appointments , booking form, reservation, availability, calendar, Booking Calendar, ical
+Contributors: momostefan, ingomomoyoga, nilsmomo, momojoris
+Tags: momoyoga, yoga, schedule, bookings, calendar
 Requires at least: 4.0
-Tested up to: 6.6.2
-Stable tag: 2.8.2
+Tested up to: 6.8
+Stable tag: 2.8.3
 License: GPLv2 or later
 
 Show your Momoyoga class schedule on your WordPress website.
@@ -79,10 +79,16 @@ For more details, visit our [Help Center](https://help.momoyoga.com/hc/en-us/art
 
 == Changelog ==
 
+= 2.8.3 =
+*Release Date - 15 April 2025*
+
+* Update code according to WordPress recommendations
+* Updated tested up to WordPress version to 6.8
+
 = 2.8.2 =
 *Release Date - 22 October 2024*
 
-* Updated tested up to WordPress version
+* Updated tested up to WordPress version to 6.6.2
 
 = 2.8.1 =
 *Release Date - 22 May 2024*
