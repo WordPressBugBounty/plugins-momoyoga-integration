@@ -1,13 +1,13 @@
 <?php
 /**
  * @package Momoyoga integration plugin
- * @version 2.8.3
+ * @version 2.9.0
  */
 /*
 Plugin Name:    Yoga Schedule Momoyoga
 Plugin URI:     https://help.momoyoga.com/hc/en-us/articles/115003513171-How-to-integrate-the-schedule-with-my-website-using-Wordpress-
 Description:    Show your Momoyoga class schedule on your WordPress website.
-Version:        2.8.3
+Version:        2.9.0
 Author:         Momoyoga
 Author URI:     https://www.momoyoga.com/en/
 License:        GPL2
@@ -16,7 +16,7 @@ Text Domain:    momoyoga-integration
 Domain Path:    /lang
 */
 
-define('MOMO_PLUGIN_VERSION', '2.8.3');
+define('MOMO_PLUGIN_VERSION', '2.9.0');
 
 require_once plugin_dir_path( __FILE__ ) . 'momoyoga-admin.php';
 require_once plugin_dir_path( __FILE__ ) . 'momoyoga-gutenburg.php';

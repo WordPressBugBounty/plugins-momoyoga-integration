@@ -3,7 +3,7 @@ Contributors: momostefan, ingomomoyoga, nilsmomo, momojoris
 Tags: momoyoga, yoga, schedule, bookings, calendar
 Requires at least: 4.0
 Tested up to: 6.8
-Stable tag: 2.8.3
+Stable tag: 2.9.0
 License: GPLv2 or later
 
 Show your Momoyoga class schedule on your WordPress website.
@@ -78,6 +78,11 @@ You'll need an active [Momoyoga](https://www.momoyoga.com/) account to use this 
 For more details, visit our [Help Center](https://help.momoyoga.com/hc/en-us/articles/115003513171-How-to-integrate-the-schedule-with-my-website-using-Wordpress-).
 
 == Changelog ==
+
+= 2.9.0 =
+*Release Date - 15 July 2025*
+
+* Link to the new branded booking flow for events and classes
 
 = 2.8.3 =
 *Release Date - 15 April 2025*
