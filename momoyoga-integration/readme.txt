@@ -3,7 +3,7 @@ Contributors: momostefan, ingomomoyoga, nilsmomo, momojoris
 Tags: momoyoga, yoga, schedule, bookings, calendar
 Requires at least: 4.0
 Tested up to: 6.8
-Stable tag: 2.9.0
+Stable tag: 2.9.1
 License: GPLv2 or later
 
 Show your Momoyoga class schedule on your WordPress website.

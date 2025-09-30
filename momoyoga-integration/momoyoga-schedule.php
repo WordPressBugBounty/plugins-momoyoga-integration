@@ -1,13 +1,13 @@
 <?php
 /**
  * @package Momoyoga integration plugin
- * @version 2.9.0
+ * @version 2.9.1
  */
 /*
 Plugin Name:    Yoga Schedule Momoyoga
 Plugin URI:     https://help.momoyoga.com/hc/en-us/articles/115003513171-How-to-integrate-the-schedule-with-my-website-using-Wordpress-
 Description:    Show your Momoyoga class schedule on your WordPress website.
-Version:        2.9.0
+Version:        2.9.1
 Author:         Momoyoga
 Author URI:     https://www.momoyoga.com/en/
 License:        GPL2
@@ -16,7 +16,7 @@ Text Domain:    momoyoga-integration
 Domain Path:    /lang
 */
 
-define('MOMO_PLUGIN_VERSION', '2.9.0');
+define('MOMO_PLUGIN_VERSION', '2.9.1');
 
 require_once plugin_dir_path( __FILE__ ) . 'momoyoga-admin.php';
 require_once plugin_dir_path( __FILE__ ) . 'momoyoga-gutenburg.php';
@@ -45,15 +45,17 @@ class MomoyogaSchedulePlugin
 		    $schedule_url = null;
 	    }
 
-        if (false === filter_var($schedule_url, FILTER_VALIDATE_URL, FILTER_FLAG_PATH_REQUIRED)) {
+        $filtered_url = filter_var($schedule_url, FILTER_VALIDATE_URL, FILTER_FLAG_PATH_REQUIRED);
+
+        if (false === $filtered_url) {
             return '<div class="momoyoga-schedule">'.__('No schedule URL defined.','momoyoga-integration').'</div>';
         }
 
-        if ($schedule_url === null || empty($schedule_url)) {
+        if (empty($filtered_url)) {
             return '<div class="momoyoga-schedule">'.__('Schedule URL invalid.','momoyoga-integration').'</div>';
         }
 
-        return '<div class="momoyoga-schedule" data-momo-schedule="' . $schedule_url .'"></div>';
+        return '<div class="momoyoga-schedule" data-momo-schedule="' . esc_attr(sanitize_url($filtered_url)) .'"></div>';
     }
 }
 
