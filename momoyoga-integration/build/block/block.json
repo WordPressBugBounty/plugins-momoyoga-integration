@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "momoyoga-integration/schedule",
+  "version": "3.0.0",
+  "title": "Momoyoga schedule",
+  "category": "widgets",
+  "icon": "media-interactive",
+  "description": "Display your Momoyoga schedule on your WordPress website.",
+  "example": {},
+  "supports": {},
+  "attributes": {
+    "scheduleUrl": {
+      "type": "string"
+    },
+    "viewType": {
+      "type": "string",
+      "enum": [
+        "Weekly",
+        "List"
+      ]
+    },
+    "showTeacher": {
+      "type": "boolean",
+      "default": true
+    },
+    "showTeacherFilter": {
+      "type": "boolean",
+      "default": true
+    },
+    "showScheduleImages": {
+      "type": "boolean",
+      "default": true
+    },
+    "showEndTime": {
+      "type": "boolean",
+      "default": true
+    },
+    "viewListDaysCount": {
+      "type": "integer",
+      "default": 30
+    },
+    "primaryColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "locale": {
+      "type": "string",
+      "enum": [
+        "",
+        "en",
+        "nl",
+        "da",
+        "de",
+        "es",
+        "fr",
+        "it",
+        "nb",
+        "pt",
+        "sl",
+        "sv"
+      ],
+      "default": ""
+    }
+  },
+  "textdomain": "momoyoga-integration",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

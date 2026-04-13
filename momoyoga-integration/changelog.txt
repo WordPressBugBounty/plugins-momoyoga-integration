@@ -1,0 +1,154 @@
+== Changelog ==
+
+= 3.0.0 =
+*Release Date - 31 March 2026*
+
+* Released the new Momoyoga integration
+* Added customisation options to the schedule block
+* Removed the classic editor button
+
+= 2.9.1 =
+*Release Date - 29 September 2025*
+
+* Fixed XSS vulnerability in the schedule URL
+
+= 2.9.0 =
+*Release Date - 15 July 2025*
+
+* Link to the new branded booking flow for events and classes
+
+= 2.8.3 =
+*Release Date - 15 April 2025*
+
+* Update code according to WordPress recommendations
+* Updated tested up to WordPress version to 6.8
+
+= 2.8.2 =
+*Release Date - 22 October 2024*
+
+* Updated tested up to WordPress version to 6.6.2
+
+= 2.8.1 =
+*Release Date - 22 May 2024*
+
+* Fixed the class end time not being displayed
+
+= 2.8.0 =
+*Release Date - 7 March 2024*
+
+* Fix XSS security vulnerability in schedule URL
+
+= 2.7.0 =
+*Release Date - 22 August 2023*
+
+* Show events in the schedule
+
+= 2.6.0 =
+*Release Date - 31 July 2023*
+
+* Add Online labels to classes
+
+= 2.5.8 =
+*Release Date - 1 September 2022*
+
+* Fixed a mistake causing the plugin not to show up in the new (Gutenberg) editor
+
+= 2.5.7 =
+*Release Date - 25 August 2022*
+
+* Made the plugin compatible with the new studio URLs
+* Updated WordPress version compatibility
+
+= 2.5.6 =
+*Release Date - 4 February 2022*
+
+* Updated WordPress version compatibility
+
+= 2.5.5 =
+*Release Date - 14 May 2021*
+
+* Updated WordPress version compatibility
+
+= 2.5.4 =
+*Release Date - 14 May 2021*
+
+* Updated WordPress version compatibility
+
+= 2.5.3 =
+*Release Date - 12 March 2021*
+
+* Replaced some code to improve compatibility with older servers
+
+= 2.5.2 =
+*Release Date - 12 February 2021*
+
+* Created a new release to solve the stuck version number
+
+= 2.5.1 =
+*Release Date - 22 January 2021*
+
+* Updated the stylesheet and JavaScript to the latest versions.
+
+= 2.5.0 =
+*Release Date - 19 January 2021*
+
+* Added support for translations through WordPress
+* Updated the stylesheet and JavaScript to the latest versions.
+
+= 2.4.1 =
+*Release Date - 1 May 2020*
+
+* Added back the strike-through to cancelled classes.
+
+= 2.4.0 =
+*Release Date - 3 April 2020*
+
+* Updated the stylesheet and JavaScript to the latest versions.
+* Handle incomplete schedule URL's a lot better.
+* Initialize the plugin also after AJAX requests.
+
+= 2.3.1 =
+*Release Date - 31 October 2019*
+
+* Improved the way the plugin is set up.
+
+= 2.3.0 =
+*Release Date - 28 June 2019*
+
+* Support multiple new languages for the schedule.
+
+= 2.2.2 =
+*Release Date - 23 January 2019*
+
+* Fix rendering of the inline editor on Firefox.
+
+= 2.2.1 =
+*Release Date - 3 December 2018*
+
+* Fix a 500 error when Gutenberg is not installed.
+
+= 2.2.0 =
+*Release Date - 28 November 2018*
+
+* Added Gutenberg block.
+
+= 2.1.2 =
+*Release Date - 28 November 2018*
+
+* Added description and screenshots.
+
+= 2.1.1 =
+*Release Date - 21 November 2018*
+
+* Added missing translations in JavaScript library.
+
+= 2.1 =
+*Release Date - 21 November 2018*
+
+* Added ability to set your schedule URL from within the text editor.
+* Updated shipped JavaScript version to latest version.
+
+= 2.0 =
+*Release Date - 6 June 2018*
+
+* Initial public release, removed dependency on external scripting.

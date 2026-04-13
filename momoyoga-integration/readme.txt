@@ -1,226 +1,109 @@
 === Yoga Schedule Momoyoga ===
 Contributors: momostefan, ingomomoyoga, nilsmomo, momojoris
 Tags: momoyoga, yoga, schedule, bookings, calendar
-Requires at least: 4.0
-Tested up to: 6.8
-Stable tag: 2.9.1
+Requires at least: 6.5
+Tested up to: 6.9
+Stable tag: 3.0.0
 License: GPLv2 or later
 
-Show your Momoyoga class schedule on your WordPress website.
+Display your Momoyoga class and event schedule directly on your WordPress website.
 
 == Description ==
 
-Show your Momoyoga class schedule on your WordPress website.
+Display your Momoyoga schedule directly on your WordPress website and allow your yogis to explore and book classes and events in just a few clicks.
 
-You can easily integrate your schedule in your website using the WordPress plugin. The plugin is available free of charge.
+The Momoyoga Website Integration makes it easy for yoga studios and teachers to show their live schedule on their website. Visitors can browse upcoming classes and events, filter by teacher, view class details, and book sessions through Momoyoga, all from the “book now” button on your website.
 
-Using this plugin, the next 8 weeks of classes from your schedule will be visible on your website. Once a visitor hits the ‘Book now’ button, the visitor will be directed to your Momoyoga website.
-
-https://www.youtube.com/watch?v=tw9bOWuRZwQ
+Your website schedule stays automatically synchronised with your Momoyoga account, so when you update classes, events, or teachers in Momoyoga, the changes appear instantly on your site.
 
 You'll need an active [Momoyoga](https://www.momoyoga.com/) account to use this plugin.
 
-**Book classes on-the-go**
+### Key Features ###
 
-Your yogis can easily make reservations and pay for their bookings online. Accessible, anytime and anywhere on mobile phones, laptops and tablets.
+#### Display your live schedule on your website ####
+Embed your Momoyoga schedule on any WordPress page.
 
-- iPhone and Android app for your yogis
-- Accept online payments
-- Schedule on your website
+#### Weekly schedule view or List view ####
+Visitors can explore your schedule week by week or in a list, depending on your desired appearance.
 
-**Know who comes to class**
+#### Teacher filters ####
+Students can filter classes by teacher and find the instructors they enjoy practicing with.
 
-Momoyoga is flexible, so it always fits your studio's needs. Teachers can manage classes and register attendance.
+#### Images for classes, events, and teachers ####
+Visual elements in your schedule reflect the personality and identity of your studio’s brand.
 
-- Your registration form online
-- Add infinite class series
-- Add workshops and private classes
-- Configure locations and rooms
-- Add cancellation term for your classes
-- Create waiting lists for your classes
-- Register attendance
-- Create comments per yogi
+#### Customisation options ####
+Choose which information appears in your schedule, including:
+* Teachers
+* Class and Event end times
+* Images
 
-**Automate your yoga studio**
-
-Save time using automated messages and notifications. Both your yogis and teachers will be up to speed at any given moment.
-
-- Active yogis overview
-- Export classes and participants
-- Personalize outgoing emails
-- Receive email notifications
-- Configure automatic emails
-- Class reminder messages
-- Automatic birthday messages
-- Cancel classes and inform yogis
-
-**Receive payments easily**
-
-Your yogis can make reservations and pay for their classes online. You can easily manage all orders and payments.
-
-- Credit card or PayPal account
-- Payments at your studio or by bank transfer
-- Configure subscriptions and credits
-- Configure trial classes or introductory offers
-- Download invoices as PDF
-- Orders and payments overview
-- View financial statistics
-
-You'll need an active [Momoyoga](https://www.momoyoga.com/) account to use this plugin.
+Apply your **brand colours** so the schedule integrates naturally with your website design.
 
 == Installation ==
 
-1. Upload the Momoyoga plugin to your blog or website.
-2. Activate the plugin.
-3. Edit a page or create a new page for your schedule.
-4. Add the schedule on this page by using the button ‘Add Momoyoga schedule’ above the text area. Or, use the shortcode to place the schedule anywhere (e.g. in a widget); `[momoyoga-schedule schedule_url="https://www.momoyoga.com/your-studio-schedule/"][/momoyoga-schedule]`
+1. Log in to your WordPress admin area.
+2. Go to **Plugins** in the left-hand menu.
+3. Click on **Add Plugin**.
+4. In the search bar, type “**Momoyoga**”.
+5. Find the **Momoyoga** plugin and click **Install Now**.
+6. Once installed, click **Activate**.
 
-For more details, visit our [Help Center](https://help.momoyoga.com/hc/en-us/articles/115003513171-How-to-integrate-the-schedule-with-my-website-using-Wordpress-).
+= Add the schedule to a page =
+
+1. Go to **Pages**.
+2. Select the page you want to add the schedule to.
+3. Add a block (+ icon).
+4. Click on **Momoyoga Schedule** (you can find this below Widgets).
+5. Enter the URL of your Momoyoga schedule. For example: `https://www.momoyoga.com/your-studio-schedule`.
+6. Click on **Save**.
+
+= Using the shortcode =
+
+The shortcode can be used in a shortcode block or in other elements of your website (e.g. in a (HTML) widget or the classic editor).
+Insert the following shortcode in a short code block on your page. You need to replace the `schedule_url` value with the URL of your Momoyoga schedule.
+```
+[momoyoga-schedule schedule_url="https://www.momoyoga.com/your-studio-schedule/"][/momoyoga-schedule]
+```
+
+= Manual installation =
+
+1. Upload the `momoyoga-integration` to the `/wp-content/plugins/` directory.
+2. Activate the **Momoyoga plugin** through the **Plugins** menu in the WordPress admin area.
+3. Follow the steps above to add the schedule to a page.
+
+For more details, visit our [Support Center](https://support.momoyoga.com/support/solutions/articles/201000109942).
+
+== Frequently Asked Questions ==
+
+= Do I need a Momoyoga account? =
+Yes. This plugin is designed for yoga studios and teachers who manage their schedule with Momoyoga.
+
+= Will my schedule update automatically? =
+Yes. When you update classes, teachers, or events in Momoyoga, the changes automatically appear on your website.
+
+= Can I customise the schedule? =
+Yes. Through the **Block settings** in WordPress, you can choose which information appears on your schedule and apply your brand colours.
+
+= Can visitors book classes through the schedule? =
+Yes. Visitors can browse your schedule and book classes through Momoyoga directly from your website.
 
 == Changelog ==
 
-= 2.9.0 =
-*Release Date - 15 July 2025*
+= 3.0.0 =
+*Release Date - 31 March 2026*
 
-* Link to the new branded booking flow for events and classes
+* Released the new Momoyoga integration
+* Added customisation options to the schedule block
+* Removed the classic editor button
 
-= 2.8.3 =
-*Release Date - 15 April 2025*
-
-* Update code according to WordPress recommendations
-* Updated tested up to WordPress version to 6.8
-
-= 2.8.2 =
-*Release Date - 22 October 2024*
-
-* Updated tested up to WordPress version to 6.6.2
-
-= 2.8.1 =
-*Release Date - 22 May 2024*
-
-* Fixed the class end time not being displayed
-
-= 2.8.0 =
-*Release Date - 7 March 2024*
-
-* Fix XSS security vulnerability in schedule URL
-
-= 2.7.0 =
-*Release Date - 22 August 2023*
-
-* Show events in the schedule
-
-= 2.6.0 =
-*Release Date - 31 July 2023*
-
-* Add Online labels to classes
-
-= 2.5.8 =
-*Release Date - 1 September 2022*
-
-* Fixed a mistake causing the plugin not to show up in the new (Guttenburg) editor
-
-= 2.5.7 =
-*Release Date - 25 August 2022*
-
-* Made the plugin compatible with the new studio URLs
-* Updated WordPress version compatibility
-
-= 2.5.6 =
-*Release Date - 4 February 2022*
-
-* Updated WordPress version compatibility
-
-= 2.5.5 =
-*Release Date - 14 May 2021*
-
-* Updated WordPress version compatibility
-
-= 2.5.4 =
-*Release Date - 14 May 2021*
-
-* Updated WordPress version compatibility
-
-= 2.5.3 =
-*Release Date - 12 March 2021*
-
-* Replaced some code to improve compatibility with older servers
-
-= 2.5.2 =
-*Release Date - 12 February 2021*
-
-* Created a new release to solve the stuck version number
-
-= 2.5.1 =
-*Release Date - 22 January 2021*
-
-* Updated the stylesheet and JavaScript to the latest versions.
-
-= 2.5.0 =
-*Release Date - 19 January 2021*
-
-* Added support for translations through WordPress
-* Updated the stylesheet and JavaScript to the latest versions.
-
-= 2.4.1 =
-*Release Date - 1 May 2020*
-
-* Added back the strike-through to cancelled classes.
-
-= 2.4.0 =
-*Release Date - 3 April 2020*
-
-* Updated the stylesheet and JavaScript to the latest versions.
-* Handle incomplete schedule URL's a lot better.
-* Initialize the plugin also after AJAX requests.
-
-= 2.3.1 =
-*Release Date - 31 October 2019*
-
-* Improved the way the plugin is set up.
-
-= 2.3.0 =
-*Release Date - 28 June 2019*
-
-* Support multiple new languages for the schedule.
-
-= 2.2.2 =
-*Release Date - 23 January 2019*
-
-* Fix rendering of the inline editor on Firefox.
-
-= 2.2.1 =
-*Release Date - 3 December 2018*
-
-* Fix a 500 error when Gutenberg is not installed.
-
-= 2.2.0 =
-*Release Date - 28 November 2018*
-
-* Added Gutenberg block.
-
-= 2.1.2 =
-*Release Date - 28 November 2018*
-
-* Added description and screenshots.
-
-= 2.1.1 =
-*Release Date - 21 November 2018*
-
-* Added missing translations in JavaScript library.
-
-= 2.1 =
-*Release Date - 21 November 2018*
-
-* Added ability to set your schedule URL from within the text editor.
-* Updated shipped JavaScript version to latest version.
-
-= 2.0 =
-*Release Date - 6 June 2018*
-
-* Initial public release, removed dependency on external scripting.
+The full changelog can be found in the `changelog.txt` file of the plugin.
 
 == Screenshots ==
 
-1. **Responsive schedule on front end**
-2. **Add Schedule to a page**
+1. Responsive schedule on front end
+2. Schedule with your own brand colours
+3. Yogis can filter classes by teacher
+4. Choose the "Momoyoga Schedule" block in the block editor
+5. The URL of your Momoyoga schedule can be set in the block
+6. Customise the schedule in the block settings
