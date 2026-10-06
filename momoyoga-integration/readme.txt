@@ -2,7 +2,7 @@
 Contributors: momostefan, ingomomoyoga, nilsmomo, momojoris
 Tags: momoyoga, yoga, schedule, bookings, calendar
 Requires at least: 6.5
-Tested up to: 6.9
+Tested up to: 7.1
 Stable tag: 3.0.0
 License: GPLv2 or later
 
