@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "momoyoga-integration/schedule",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "title": "Momoyoga schedule",
   "category": "widgets",
   "icon": "media-interactive",
@@ -36,6 +36,9 @@
       "type": "boolean",
       "default": true
     },
+    "hideEmptyDays": {
+      "type": "boolean"
+    },
     "viewListDaysCount": {
       "type": "integer",
       "default": 30
@@ -61,6 +64,15 @@
         "sv"
       ],
       "default": ""
+    },
+    "itemType": {
+      "type": "string",
+      "enum": [
+        "All",
+        "Lesson",
+        "Event"
+      ],
+      "default": "All"
     }
   },
   "textdomain": "momoyoga-integration",

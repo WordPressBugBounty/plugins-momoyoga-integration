@@ -3,7 +3,7 @@ Contributors: momostefan, ingomomoyoga, nilsmomo, momojoris
 Tags: momoyoga, yoga, schedule, bookings, calendar
 Requires at least: 6.5
 Tested up to: 7.1
-Stable tag: 3.0.0
+Stable tag: 3.1.0
 License: GPLv2 or later
 
 Display your Momoyoga class and event schedule directly on your WordPress website.
@@ -90,12 +90,11 @@ Yes. Visitors can browse your schedule and book classes through Momoyoga directl
 
 == Changelog ==
 
-= 3.0.0 =
-*Release Date - 31 March 2026*
+= 3.1.0 =
+*Release Date - 12 November 2026*
 
-* Released the new Momoyoga integration
-* Added customisation options to the schedule block
-* Removed the classic editor button
+* Added customisation option to show classes/events only
+* Added customisation option to hide empty days when the "list" view is used
 
 The full changelog can be found in the `changelog.txt` file of the plugin.
 

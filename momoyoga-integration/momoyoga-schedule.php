@@ -3,7 +3,7 @@
  * Plugin Name:       Yoga Schedule Momoyoga
  * Plugin URI:        https://www.momoyoga.com
  * Description:       Display your Momoyoga schedule directly on your WordPress website.
- * Version:           3.0.0
+ * Version:           3.1.0
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Momoyoga

@@ -1,5 +1,11 @@
 == Changelog ==
 
+= 3.1.0 =
+*Release Date - 12 November 2026*
+
+* Added customisation option to show classes/events only
+* Added customisation option to hide empty days when the "list" view is used
+
 = 3.0.0 =
 *Release Date - 31 March 2026*
 
